@@ -1,9 +1,6 @@
 {
     "name": "mouf/utils.common.conditioninterface",
-    "description": "This package contains one interface for condition, and a few classes that implement it. For instance, AndCondition that 
-	require all conditions to be met, and OrCondition that require at least one condition to be met.
-	A condition is a class that possesses an 'isOk' method. The condition returns true if the condition is met,
-	and false otherwise.",
+    "description": "This package contains one interface for condition, and a few classes that implement it. For instance, AndCondition that requires all conditions to be met, and OrCondition that requires at least one condition to be met. A condition is a class that possesses an 'isOk' method. The condition returns true if the condition is met, and false otherwise.",
     "keywords": ["condition", "interface"],
     "homepage": "https://github.com/thecodingmachine/utils.common.conditioninterface",
     "type": "library",
