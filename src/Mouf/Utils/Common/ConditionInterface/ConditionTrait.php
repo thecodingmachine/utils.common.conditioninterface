@@ -12,7 +12,6 @@ namespace Mouf\Utils\Common\ConditionInterface;
  *
  */
 trait ConditionTrait {
-
 	/**
 	 * @var ConditionInterface
 	 */
