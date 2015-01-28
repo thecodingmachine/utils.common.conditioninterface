@@ -41,12 +41,13 @@ Provided classes
 ----------------
 
 This package comes with a few utility classes:
-- TrueCondition: always returns true
-- FalseCondition: always returns false
-- AndCondition: performs a logical AND between child conditions
-- OrCondition: performs a logical OR between child conditions
-- NotCondition: performs a logical NOT on a condition
- 
+
+- `TrueCondition`: always returns true
+- `FalseCondition`: always returns false
+- `AndCondition`: performs a logical AND between child conditions
+- `OrCondition`: performs a logical OR between child conditions
+- `NotCondition`: performs a logical NOT on a condition
+- `BoolToCondition`: wraps boolean into condition interface (useful to set it dynamically)
 
 
 Mouf package
