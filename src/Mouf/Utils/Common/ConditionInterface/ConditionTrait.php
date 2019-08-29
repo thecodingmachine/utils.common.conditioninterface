@@ -13,7 +13,7 @@ namespace Mouf\Utils\Common\ConditionInterface;
  */
 trait ConditionTrait {
 	/**
-	 * @var ConditionInterface
+	 * @var ConditionInterface|null
 	 */
 	protected $condition;
 	
